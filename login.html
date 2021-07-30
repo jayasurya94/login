@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    
+    </head>
+    <body>
+        <div class="container">
+        <h1 text align="center">Login Form</h1>
+            <form action="welcome.html" method="post"> 
+            <div>
+            <input type="text" value="" placeholder="Username"  id="value"class="name" required/>
+            </div>
+            <br>
+            <div>
+            <input type="password" value="" placeholder="Password"id="value" class="name"required/>
+            </div>
+            <br>
+            <button class="submit" onclick="signIn()">Sign In</button>
+            <br>
+            <div>
+            <a href ="forgot.html"style="top:246px; position: absolute;left:20px;">Forget Password</a>
+        </div>
+        </form>
+     </div>
+    </body>
+</html>
+<script>
+    function signIn(){
+        var sin=document.getElementById("value").value;
+        var sin1=document.getElementById("value").value;
+        if(sin =="" && sin == ""){
+            alert(" enter the values in the required field");
+        }
+        else{
+         alert("signIn successfully");
+    }
+}
+</script>

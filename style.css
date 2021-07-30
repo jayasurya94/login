@@ -1,0 +1,36 @@
+body{
+    background:url("./bgimg.jpg") no-repeat;
+    background-size:cover;
+}
+.register{
+    margin:130px;
+    position:relative;
+    left:570px;
+    border:3px solid white;
+    border-radius:10px;
+    background-color:white;
+    height:528px;
+    width:400px;
+
+}
+.parent{
+    padding-left:60px;
+}
+.fullname{
+    height:25px;
+    width:200px;
+    border:1px solid grey;
+    border-radius:5px;
+}
+.btn{
+    height:25px;
+    width:100px;
+    position:relative;
+    top:46px;
+    left: -150px;
+    padding-left:10px;
+    background:linear-gradient( red,yellow);
+    border:1px solid grey;
+    border-radius:5px;
+    color:black;
+}

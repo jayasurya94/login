@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>ForgetPassword</title>
+        <link rel="stylesheet" type="text/css" href="forget.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+            <form action="login.html" method="post">
+                <input type="password" placeholder="Enter your password"id="pasword1" class="password" required>
+                <br>
+                <br>
+                <input type="password" placeholder="Enter your confirm password"id="pasword2" class="password" required>
+                <br>
+                <br>
+                <button class="submit-btn" onclick="forgetPassword()">Submit</button required>
+            </div>
+        </div>
+    </form>
+    </body>
+</html>
+<script>
+    function forgetPassword(){
+        var pass1=document.getElementById("pasword1").value;
+        var pass2=document.getElementById("pasword2").value;
+        if(pass1 == ""|| pass2 == ""){
+            alert("please enter the value");
+
+        }
+        else if( pass1 == pass2){
+            alert("password match successfully");
+            
+        }
+        else{
+            alert("password didn't match");
+        }
+        
+        
+    }
+
+</script>

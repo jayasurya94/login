@@ -1,0 +1,39 @@
+body{
+    padding:0;
+    margin:0;
+    background:url("./bgimg.jpg")no-repeat;
+    background-size:cover;
+}
+.container{
+    height:250px;
+    width:260px;
+    position:relative;
+    left:693px;
+    top:250px;
+    border:1px solid white;
+    border-radius:25px;
+    background-color:white;
+    padding-left:80px;
+    padding-top:30px;
+
+}
+.password{
+    height:30px;
+    width:260px;
+    position:relative;
+    top:30px;
+    right:35px;
+    border:1px solid grey;
+    border-radius:5px;
+    padding-left:20px;
+
+}
+.submit-btn{
+    height: 30px;
+    width:100px;
+    position:relative;
+    top:40px;
+    left:29px;
+    border:1px solid grey;
+    border-radius:5px;
+}
